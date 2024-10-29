@@ -1,0 +1,62 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe4e1; /* Fondo rosa pastel */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    color: #d5006d; /* Color de texto en un tono rosa oscuro */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #555; /* Color del subtítulo */
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.advice-box {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff0f5; /* Fondo rosa pastel más suave para el contenedor de consejos */
+    border-radius: 8px;
+    min-height: 80px;
+}
+
+button {
+    font-size: 1rem;
+    color: white;
+    background-color: #d5006d; /* Botón rosa oscuro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b0004c; /* Cambio a un tono más oscuro al pasar el mouse */
+}
